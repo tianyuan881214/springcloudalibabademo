@@ -3,5 +3,17 @@ spring:
   application:
     name: eureka_server_demo
 
+#端口
+server:
+  port: 8761
 
 
+eureka:
+  client:
+    #关闭注册服务
+    register-with-eureka: false
+    #关闭检索服务
+    fetch-registry: false
+  #关闭自我保护
+#    server:
+#      enableSelfPreservation:false

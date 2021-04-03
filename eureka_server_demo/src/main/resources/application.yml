@@ -2,6 +2,10 @@
 spring:
   application:
     name: eureka_server_demo
+  security:
+    user:
+      name: root
+      password: root
 
 #端口
 server:

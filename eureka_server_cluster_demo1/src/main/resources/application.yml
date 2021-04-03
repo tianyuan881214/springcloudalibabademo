@@ -1,0 +1,9 @@
+# 应用名称
+spring:
+  application:
+    name: eureka_server_cluster_demo1
+server:
+  port: 8761
+eureka:
+  client:
+    fetch-registry:

@@ -1,0 +1,17 @@
+# 应用名称
+spring:
+  application:
+    name: eureka_client_demo1
+
+server:
+  port: 8081
+
+# 采用IP注册
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://root:root@127.0.0.1:8761/eureka/
+
+

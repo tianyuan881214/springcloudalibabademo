@@ -1,0 +1,10 @@
+# 应用名称
+spring:
+  application:
+    name: zookeeper_demo
+
+
+server:
+  port: 8081
+
+zookeeper.cluster.ip: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183
